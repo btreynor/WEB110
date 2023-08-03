@@ -1,0 +1,64 @@
+/*
+Author:	Brendan Treynor
+Date:	11/20/2022
+File Name: apply08.css
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #f4f9e1;
+}
+
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+
+/*Style for the table element */
+table {
+	width: 80%;
+	margin: 0 auto 0 auto;
+	border: 3px solid #71881b;
+}
+
+/*Style for the table, rows, header, and data to have a collapsible border */
+table, tr, th, td {
+	border-collapse: collapse;
+	padding: 2%;
+}
+
+/*Style for the caption element */
+caption {
+	font-size: 2em;
+	padding: 2%;
+	margin-top: 2%;
+}
+
+/*Style for the table headers and data to have a solid border with a certain color */
+th, td {
+	border: 1px solid #71881b;
+}
+
+/*Style for the table data to align the text in the center */
+td {
+	text-align: center;
+}
+
+/*Style for the odd rows to receive a color */
+tr:nth-child(odd) {
+	background-color: #d3e788;
+}
